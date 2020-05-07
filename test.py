@@ -64,4 +64,5 @@ elif header_number == 15:
         print(f'{"https://lenta.ru" + url2} {text2[5:len(text2)]}')
 else:
      print('Incorrect number of categories')
-     exit(-1)   
+     exit(-1)
+#print('a')
