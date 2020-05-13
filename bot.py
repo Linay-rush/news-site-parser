@@ -3,8 +3,8 @@ import telebot
 import schedule
 from lentaAction import lenta
 from Users import Users
-from main import habr
-from meduza_v2 import meduza
+from habrAction import habr
+from meduzaAction import meduza
 
 
 bot = telebot.TeleBot('1030330853:AAGe69afjFYwBl5XS5spjmScAFylIP1LOHk')
