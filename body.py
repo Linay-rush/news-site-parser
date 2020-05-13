@@ -27,7 +27,7 @@ key_board_habr.row('Администрирование', 'Дизайн', 'Мен
 
 key_board_meduza = telebot.types.ReplyKeyboardMarkup(True)
 key_board_meduza.row('Выход', 'Новости', 'Истории', 'Разбор')
-key_board_meduza.row('Игры', 'Шапито', 'Подкасты', 'Кононавирус')
+key_board_meduza.row('Игры', 'Шапито', 'Подкасты', 'Коронавирус')
 
 time_at = '20:00'
 users = dict()
@@ -164,7 +164,7 @@ def process_action():
 from threading import Thread
 
 if __name__ == "__main__":
-    schedule.every.day.at(time_at).do(cron_action)
+    schedule.every().day.at(time_at).do(cron_action)
 
     Thread(target=process_action).start()
 
