@@ -18,7 +18,7 @@ key_board_lenta = telebot.types.ReplyKeyboardMarkup(True)
 key_board_lenta.row('Выход', 'Главное', 'Россия', 'Мир')
 key_board_lenta.row('Бывший СССР', 'Экономика', 'Силовые структуры')
 key_board_lenta.row('Наука и техника', 'Культура', 'Спорт')
-key_board_lenta.row('Инттернет и СМИ', 'Ценности', 'Путешествия')
+key_board_lenta.row('Интернет и СМИ', 'Ценности', 'Путешествия')
 key_board_lenta.row('Из жизни', 'Дом', 'Последние новости')
 
 key_board_habr = telebot.types.ReplyKeyboardMarkup(True)
@@ -29,7 +29,7 @@ key_board_meduza = telebot.types.ReplyKeyboardMarkup(True)
 key_board_meduza.row('Выход', 'Новости', 'Истории', 'Разбор')
 key_board_meduza.row('Игры', 'Шапито', 'Подкасты', 'Коронавирус')
 
-time_at = '20:00'
+time_at = '21:37'
 users = dict()
 sites = dict()
 sites['lenta.ru'] = ['Главное', 'Россия', 'Мир', 'Бывший СССР', 'Экономика', 'Силовые структуры', 'Наука и техника',
