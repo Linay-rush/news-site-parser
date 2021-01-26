@@ -3,4 +3,4 @@ class Users:
         self.id = id
         self.sites = dict()
         self.state = 0
-        self.site = ''
+        self.site = '' 
